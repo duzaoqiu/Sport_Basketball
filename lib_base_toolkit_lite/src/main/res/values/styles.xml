@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- LaunchActivity的主题，本来想使用背景作为启动界面，但是目前还不知道怎么使用 -->
+    <style name="base_launch_theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+
+    <!--从底部弹出dialog样式-->
+    <style name="dialog_base" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!--<item name="android:backgroundDimEnabled">false</item>  &lt;!&ndash;消除背景阴影&ndash;&gt;-->
+        <item name="android:backgroundDimAmount">0.2</item><!--阴影度-->
+        <!--<item name="android:windowAnimationStyle">@style/dialog_anim_side</item>-->
+    </style>
+
+    <style name="dialog_anim_bottom" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+
+    <style name="dialog_anim_side" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_right_side</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_right_side</item>
+    </style>
+
+    <style name="cut_line_vertical">
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/line_color</item>
+    </style>
+
+    <style name="cut_line_horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/line_color</item>
+    </style>
+
+    <style name="cut_line_horizontal_10">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:background">@color/line_color</item>
+    </style>
+
+    <style name="okBtn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/selector_ok_btn_red_gray</item>
+    </style>
+
+    <declare-styleable name="TagFlowLayout">
+        <attr name="max_select" format="integer"></attr>
+        <attr name="span_count" format="integer"></attr>
+        <attr name="single_line" format="boolean"></attr>
+        <attr name="tag_flow_view" format="reference"></attr>
+        <attr name="tag_flow_text_view_id" format="reference"></attr>
+        <attr name="tag_is_clickable" format="boolean"></attr>
+        <attr name="max_line" format="integer"></attr>
+        <attr name="add_lastOne" format="boolean"></attr>
+        <attr name="tag_is_changeable" format="boolean"></attr>
+        <attr name="tag_gravity">
+            <enum name="left" value="-1" />
+            <enum name="center" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <!--WrapXXX进行防重复点击,可以设置anti_repeat为true-->
+    <declare-styleable name="WrapXXXView">
+        <attr name="anti_repeat" format="boolean"></attr>
+        <attr name="delay_time" format="integer"></attr>
+    </declare-styleable>
+
+
+    <!--普通字体样式-->
+    <style name="text_style_normal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:textColor">@color/text_color_normal</item>
+    </style>
+
+    <!--小号字体样式-->
+    <style name="text_style_small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@color/text_color_normal</item>
+    </style>
+
+    <!--大号字体样式-->
+    <style name="text_style_large">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textColor">@color/text_color_normal</item>
+    </style>
+
+    <!--超大号字体样式-->
+    <style name="text_style_extra_large">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_extra_large</item>
+        <item name="android:textColor">@color/text_color_normal</item>
+    </style>
+
+    <!-- 普通外边框样式,主要应用最外布局，padding为10dp-->
+    <style name="bg_style_normal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding_10dp</item>
+    </style>
+
+    <!--业务继承该主题，能够将写在xml里面的控件代理到我们的WrapXXX控件下，方便对于点击事件或者其他设置进行统一的设置-->
+    <style name="CustomViewInflaterTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="viewInflaterClass">com.bench.android.core.util.CustomAppViewInflater</item>
+    </style>
+</resources>

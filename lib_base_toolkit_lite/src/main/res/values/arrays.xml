@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="appDomainRequestUrlOffLine">
+        <item>http://test-caihong-resource.oss-cn-hangzhou.aliyuncs.com/URL/ch_mapi_url.txt</item>
+        <item>http://dynamic.caihong.net/ch_mapi_url.txt</item>
+    </string-array>
+
+    <string-array name="ftDomainRequestUrlOnline">
+        <item>http://test-kkbuluo-resource.oss-cn-hangzhou.aliyuncs.com/URL/analysis_url.txt</item>
+        <item>http://dynamic.kkbuluo.net/analysis_url.txt</item>
+    </string-array>
+
+    <string-array name="ftDomainRequestUrlOffLine">
+        <item>http://test-kkbuluo-resource.oss-cn-hangzhou.aliyuncs.com/URL/analysis_url.txt</item>
+        <item>http://dynamic.kkbuluo.net/analysis_url.txt</item>
+    </string-array>
+
+    <string-array name="FT_API_IMAGE_DOMAIN_ON_LINE">
+        <item>https://ftapi.kkbuluo.net</item>  <!-- 线下 -->
+        <item>https://ftapi1.kkbuluo.net</item>  <!-- 分支 -->
+        <item>http://ftapi.kkbuluo.com</item>   <!-- 线上 -->
+        <item>https://ft.kkbuluo.net/team/logo/1.htm?</item>  <!-- 图片线下 -->
+        <item>https://ft.kkbuluo.com/team/logo/1.htm?</item>  <!-- 图片线上 -->
+    </string-array>
+
+    <string-array name="BT_API_IMAGE_DOMAIN_ON_LINE">
+        <item>https://btapi.kkbuluo.net</item>  <!-- 线下 -->
+        <item>https://btapi1.kkbuluo.net</item> <!-- 分支 -->
+        <item>http://btapi.kkbuluo.com</item>  <!-- 线上 -->
+        <item>https://bt.kkbuluo.net/team/logo/1.htm?</item> <!-- 图片线下 -->
+        <item>https://bt.kkbuluo.com/team/logo/1.htm?</item>  <!-- 图片线下 -->
+    </string-array>
+
+
+    <string-array name="appDomainBranchTest">
+        <item>http://mapi1.kkbuluo.net</item>
+    </string-array>
+
+    <string-array name="appDomainRequestUrlOnLine">
+        <item>http://sssynout-prod-caihong-resource.oss-cn-hangzhou.aliyuncs.com/URL/ch_mapi_url.txt</item>
+        <item>http://dynamic.caihongshop.com/ch_mapi_url.txt</item>
+    </string-array>
+</resources>

@@ -1,0 +1,129 @@
+图片加载后期统一使用Glide，已默认使用GlideLoader，不需要单独设置 setImageLoaderStrategy
+控件使用com.android.library.tools.ImageLoader.base.SimpleImageView
+
+加载大长图 ：  参考LongImageTestActivity
+                 <com.bench.android.core.net.ImageLoader.base.SimpleImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:isLong="true">     //布局中设置isLong属性
+                    </com.bench.android.core.net.ImageLoader.base.SimpleImageView>
+
+                     ImageLoaderHelper.getInstance()
+                                    .load("https://download01.fangcloud.com/download/17f81e1052c44595bcb79ff5ebc1e6a9/364910dbca9d759b5b44d962ea97d2eed9efd8292750bd68155b899243d58b08/toolong2.jpg")
+                                    .setLong(true) //这里也要加上
+                                    .into(simpleImageView);
+
+gif（圆形，方形都支持）
+                       ImageLoaderHelper.getInstance()
+                        .load("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1562763936596&di=01f08ecec305e0b4b3ec35184e5a8f75&imgtype=0&src=http%3A%2F%2Fimg.mp.itc.cn%2Fupload%2F20170110%2Fb56b87be5f174eca81f9d06116aa1968.jpg")
+                        .asGif(true)
+                        .circle(true)
+                        .resize(dip2px(150), dip2px(120))
+                        .into(imageView01);
+
+原图wrap_content，或者在布局中设置宽高
+                        ImageLoaderHelper.getInstance()
+                        .load(url)
+                        .into(imageView02);
+
+原图重置宽高
+                        ImageLoaderHelper.getInstance()
+                        .load(url)
+                         .resize(dip2px(150), dip2px(120))
+                        .into(imageView02);
+
+
+圆图
+                        ImageLoaderHelper.getInstance()
+                        .load(url)
+                        .circle(true)
+                        .into(imageView02);
+
+
+圆图带描边
+                        ImageLoaderHelper.getInstance()
+                        .load(url)
+                        .resize(dip2px(150), dip2px(120))
+                        .circle(true)
+                        .stroke(getResources().getColor(R.color.green_400), 5)
+                        .into(imageView04);
+
+四个角圆角
+           <com.bench.android.core.net.ImageLoader.base.SimpleImageView
+            android:id="@+id/image04"
+            app:isRound = "true"   //二选1  ，这里设置了，代码里就不需要设置 roundCircleRadius(RoundRadiusType.CORNER_ALL,dip2px(15))
+            app:cornerRadius = "15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+四个角,或者两个角圆角
+                         ImageLoaderHelper.getInstance()
+                          .load(url)
+                          .roundCircleRadius(RoundRadiusType.CORNER_ALL,dip2px(15))
+                          .into(imageView05);
+      /**上边两个圆角*/
+       int CORNER_TOP =1001;
+
+       /**底部两个圆角*/
+       int CORNER_BOTTOM = 1002;
+
+       /**左边两个圆角*/
+       int CORNER_LEFT = 1003;
+
+       /**右边两个圆角*/
+       int CORNER_RIGHT =1004;
+
+       /**四角圆角*/
+       int CORNER_ALL = 1000;
+
+
+图片旋转
+                        ImageLoaderHelper.getInstance()
+                        .load(url)
+                        .resize(dip2px(150), dip2px(120))
+                        .centerCrop(true)
+                        .rotate(90)
+                        .into(imageView08);
+centerCrop
+centerInside
+
+
+图片下载回调
+        //图片下载或者预加载的话就设置.downloadOnly(true)  我们统一用file接收回调
+        ImageLoaderHelper.getInstance()
+                .load(url)
+                .downloadOnly(true)
+                .callback(new ImageLoaderCallBack<File>() {
+                    @Override
+                    public void loadSuccess(File file) {
+                        Bitmap bitmap=BitmapFactory.decodeFile(file.getPath());
+                        imageView11.setImageBitmap(bitmap);
+                    }
+                    @Override
+                    public void loadFailed(Exception e) {
+                    }
+                });
+
+其他的图片直接下载并显示的，直接回调的Bitmap或者GifDrwable
+                 ImageLoaderHelper.getInstance()
+                                        .load(url)
+                                        .resize(dip2px(150), dip2px(120))
+                                        .centerCrop(true)
+                                        .callback(new ImageLoaderCallBack<Bitmap>() {
+                                            @Override
+                                            public void loadSuccess(Bitmap bitmap) {
+
+                                            }
+
+                                            @Override
+                                            public void loadFailed(Exception e) {
+
+                                            }
+                                        },imageView11);
+
+以上参考：ImageLoaderTestActivity
+
+
+
+

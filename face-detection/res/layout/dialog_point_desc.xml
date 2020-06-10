@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="370dp"
+        android:background="@drawable/shape_all_small_radius_white_bg"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:text="热点区颜色划分说明"
+            android:textColor="#564F5E"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:background="#FF5700"
+            android:gravity="center"
+            android:text="70命中率100"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="#FF794A"
+            android:gravity="center"
+            android:text="40命中率70"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="#5F77B3"
+            android:gravity="center"
+            android:text="10命中率40"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="#F5F6FA"
+            android:gravity="center"
+            android:text="0命中率10"
+            android:textColor="#564F5E"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</LinearLayout>

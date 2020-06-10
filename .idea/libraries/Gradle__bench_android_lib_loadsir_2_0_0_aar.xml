@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: bench_android:lib_loadsir:2.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/76eda074c85e4c88ff598605b7bf657f/lib_loadsir-2.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/76eda074c85e4c88ff598605b7bf657f/lib_loadsir-2.0.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/bench_android/lib_loadsir/2.0.0/949aceed5cf21402c88d739744534193323a465c/lib_loadsir-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,55 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion dependencyLibs["android:compileSdkVersion"]
+
+    defaultConfig {
+        minSdkVersion dependencyLibs["android:minSdkVersion"]
+        targetSdkVersion dependencyLibs["android:targetSdkVersion"]
+        versionCode 1
+        versionName "1.0"
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [AROUTER_MODULE_NAME: project.getName()]
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    api('com.kk.taurus.playerbase:playerbase:3.3.5') {
+        exclude group: "com.android.support"
+    }
+    api "tv.danmaku.ijk.media:ijkplayer-java:${dependencyLibs["tv.danmaku.ijk.media:ijkplayer-java"]}"
+    api project(':lib_base_toolkit_lite')
+
+    implementation "bench_android:lib_common_service:${dependencyLibs["bench_android:lib_common_service"]}"
+    annotationProcessor "bench_android:arouter-compiler:${dependencyLibs["bench_android:arouter-compiler"]}"
+
+}
+
+modifyPom {
+    project {
+        description "播放器的庫，支持AndroidX"
+        developers {
+            developer {
+                name 'xingjiu'
+            }
+        }
+    }
+}
+
+version = '2.0.1'
+
+
+

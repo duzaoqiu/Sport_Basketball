@@ -1,0 +1,7 @@
+<resources>
+    <string name="empty_error_tip"> 暂无数据~</string>
+    <string name="set_rsa_key_tip">aes密钥上传失败</string>
+
+    <string name="group_chat_menu_item_pic">照片</string>
+    <string name="group_chat_menu_item_take_photo">拍摄</string>
+</resources>

@@ -1,0 +1,569 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:2:1-95:12
+INJECTED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:2:1-95:12
+INJECTED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:2:1-95:12
+INJECTED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:2:1-95:12
+MERGED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-74:12
+MERGED from [:zxing] E:\company_github\baseketBall\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:1-49:12
+MERGED from [com.google.android.material:material:1.1.0-alpha10] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\015d9d0b2949833629be1eace435c33a\material-1.1.0-alpha10\AndroidManifest.xml:17:1-24:12
+MERGED from [bench_android:arouter-api:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cbb0babf15f420d3b8bb38eb6386118c\arouter-api-1.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [bench_android:lib_loadsir:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\76eda074c85e4c88ff598605b7bf657f\lib_loadsir-2.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [bench_android:lib_viewpagerindicator:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f5a0087e7547d1078a1d1185883dfe1a\lib_viewpagerindicator-2.0.0\AndroidManifest.xml:2:1-16:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\dcd85adcd7a1e46426af129e8fbf0711\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\829aacbefe0b9da528caa37bb76836d9\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5f1d6c8d22b38160c3e6f108326186a6\jetified-circleimageview-2.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [org.permissionsdispatcher:permissionsdispatcher:4.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2f51061d54ebf9012457ca6b9ca9e818\permissionsdispatcher-4.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.exoplayer:exoplayer:2.11.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\664faec5cbcc6b0ffdb788dc9a5f47fa\exoplayer-2.11.5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.11.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4632679e278a132ab1e49712c8d1f70c\exoplayer-dash-2.11.5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.11.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\82d8e3d73ba2cbf9108f446429104c0f\exoplayer-ui-2.11.5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.11.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\685cb5df50b2f11771fd36c1002accb8\exoplayer-hls-2.11.5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.11.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6cdcb04a3db5c803b2d40f8eebcf2cab\exoplayer-smoothstreaming-2.11.5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.11.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\537a538bcf76defde6284cf7bdcc0043\jetified-exoplayer-core-2.11.5\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-rc01] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6996fe3977f13493e76d20c338a477cb\lifecycle-extensions-2.0.0-rc01\AndroidManifest.xml:17:1-25:12
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.9.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\45ce4510c01fadc1f9309bf99b00a725\jetified-okhttp3-integration-4.9.0\AndroidManifest.xml:2:1-16:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3ccc0872784102afd7436399d714183e\jetified-glide-4.9.0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta03] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e26ce6cb11064338908f240ca9407b2d\viewpager2-1.0.0-beta03\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\abcd570d19661a7d59ae21ad385fc136\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\23c54b7d8224ec419d8eaf22ba16837c\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\64abd2aa94f9e6e0d93dad4aa9a57696\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b150668c3e9c150e9040cc923dfa882a\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1b95ebc6bb0d308a0237c1f3b35bfce8\media-1.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\516308087aaa1f0cad8f2a4667d19b73\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\39441e7140aed719bbbbc9e13d62aad6\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\285d20e861322435cc1e0648f10e0f97\activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0e3ba0012f6fc9f5f133e2c797aa003f\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c362c12463fc973ceb4f22731ae85551\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bb5cecee09de9ae23c01521f19c40803\coordinatorlayout-1.1.0-beta01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\28102dc38b3aca44de804c1f1e1560c6\recyclerview-1.1.0-beta01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f1acf78960f8fec883f4907ce1635db4\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bdc1bdfe61f2804ceb44632c09dbd0a8\transition-1.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ac6cdd2d4a715d63c12afefea9310a95\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5e484f386598001459393f057e66b16f\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.davemorrissey.labs:subsampling-scale-image-view:3.10.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f0a53576c29c5b323f4a521c3fdff174\jetified-subsampling-scale-image-view-3.10.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\733cde266c26a10482610ec20012d2fd\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\356240541b7077e2b773a8dd2ffa7a8e\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1df8dd8e1e33b090540d0f8afb83e17f\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2aa22f99858b79fd50e52de257d538fe\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\724ed3d3ec037b1d97edf27c5955a39c\jetified-gifdecoder-4.9.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0-rc01] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\37dff31dbe83acde7dd338a7f98ec9f5\lifecycle-process-2.0.0-rc01\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0-rc01] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\279713e9aef88a0853fafef637c5a71a\lifecycle-service-2.0.0-rc01\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9146dde92e16083f9ef34f77d9d85bb1\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ce1f6170d5afca712b9ff652c4cb9d97\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1db3a05a66ddc2477bc93948af2a7102\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\74a6521bc99b7f1e4fa5594faf79f715\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d799042f454c59722da923df757b9652\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f6afd7568c7a675f5b14c84a1d635e35\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9f14e38646002c3bbf4c0b7a1c16876a\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\41dfc449dfa6bc90bc0edc20f41fc503\oss-android-sdk-2.9.4\AndroidManifest.xml:2:1-22:12
+MERGED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b2aad7fbc3dee184ecdb1d6cef2b3f5a\library-1.7.6\AndroidManifest.xml:2:1-18:12
+MERGED from [com.wang.avi:library:2.1.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ddb7318cc9fa1b51528707832bd52088\library-2.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [bench_android:BaseRecyclerViewAdapterHelper:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2370b1283879b512370ada365f5fcc81\BaseRecyclerViewAdapterHelper-2.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [bench_android:lib_pingyin4j:1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ddd53af925b01a83c2fe402a102c7aa6\lib_pingyin4j-1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [bench_android:lib_linker_normal:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4d6b0c39e8540b728d8a4c771ed5a932\lib_linker_normal-1.0.2\AndroidManifest.xml:2:1-11:12
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.16] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\235455048c8703e98510a9c59d1fd6cc\android-gif-drawable-1.2.16\AndroidManifest.xml:2:1-10:12
+INJECTED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:2:1-95:12
+INJECTED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:2:1-95:12
+INJECTED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:2:1-95:12
+	package
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:3:5-44
+		INJECTED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml
+		INJECTED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:2:1-95:12
+		INJECTED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:2:1-95:12
+		INJECTED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:2:11-69
+supports-screens
+ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:5:5-10:39
+	android:largeScreens
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:7:9-36
+	android:smallScreens
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:10:9-36
+	android:normalScreens
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:8:9-37
+	android:resizeable
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:9:9-34
+	android:anyDensity
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:6:9-34
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:12:5-81
+MERGED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:5-81
+MERGED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:5-81
+MERGED from [:zxing] E:\company_github\baseketBall\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:5-81
+MERGED from [:zxing] E:\company_github\baseketBall\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:5-81
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\41dfc449dfa6bc90bc0edc20f41fc503\oss-android-sdk-2.9.4\AndroidManifest.xml:14:5-81
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\41dfc449dfa6bc90bc0edc20f41fc503\oss-android-sdk-2.9.4\AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:13:5-80
+MERGED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:5-80
+MERGED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:5-80
+	android:name
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:13:22-77
+uses-permission#android.permission.CAMERA
+ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:14:5-65
+MERGED from [:zxing] E:\company_github\baseketBall\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:5-65
+MERGED from [:zxing] E:\company_github\baseketBall\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:5-65
+	android:name
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:14:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:15:5-71
+	android:name
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:15:22-68
+uses-permission#android.permission.INTERNET
+ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:16:5-67
+MERGED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:5-67
+MERGED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:5-67
+MERGED from [:zxing] E:\company_github\baseketBall\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:5-67
+MERGED from [:zxing] E:\company_github\baseketBall\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:5-67
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\41dfc449dfa6bc90bc0edc20f41fc503\oss-android-sdk-2.9.4\AndroidManifest.xml:11:5-67
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\41dfc449dfa6bc90bc0edc20f41fc503\oss-android-sdk-2.9.4\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:16:22-64
+uses-permission#android.permission.VIBRATE
+ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:17:5-66
+MERGED from [:zxing] E:\company_github\baseketBall\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:5-66
+MERGED from [:zxing] E:\company_github\baseketBall\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:5-66
+	android:name
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:17:22-63
+uses-feature#android.hardware.camera
+ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:19:5-21:36
+	android:required
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:21:9-33
+	android:name
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:20:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:22:5-24:36
+MERGED from [:zxing] E:\company_github\baseketBall\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:5-38:36
+MERGED from [:zxing] E:\company_github\baseketBall\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:5-38:36
+	android:required
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:24:9-33
+	android:name
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:23:9-57
+uses-feature#android.hardware.camera.front
+ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:26:9-53
+uses-feature#android.hardware.camera.front.autofocus
+ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:30:9-33
+	android:name
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:29:9-63
+application
+ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:32:5-93:19
+MERGED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:5-72:19
+MERGED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:5-72:19
+MERGED from [:zxing] E:\company_github\baseketBall\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:5-20
+MERGED from [:zxing] E:\company_github\baseketBall\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:5-20
+MERGED from [com.google.android.material:material:1.1.0-alpha10] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\015d9d0b2949833629be1eace435c33a\material-1.1.0-alpha10\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0-alpha10] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\015d9d0b2949833629be1eace435c33a\material-1.1.0-alpha10\AndroidManifest.xml:22:5-20
+MERGED from [bench_android:lib_viewpagerindicator:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f5a0087e7547d1078a1d1185883dfe1a\lib_viewpagerindicator-2.0.0\AndroidManifest.xml:11:5-14:19
+MERGED from [bench_android:lib_viewpagerindicator:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f5a0087e7547d1078a1d1185883dfe1a\lib_viewpagerindicator-2.0.0\AndroidManifest.xml:11:5-14:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\829aacbefe0b9da528caa37bb76836d9\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\829aacbefe0b9da528caa37bb76836d9\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5f1d6c8d22b38160c3e6f108326186a6\jetified-circleimageview-2.0.0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5f1d6c8d22b38160c3e6f108326186a6\jetified-circleimageview-2.0.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-rc01] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6996fe3977f13493e76d20c338a477cb\lifecycle-extensions-2.0.0-rc01\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-rc01] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6996fe3977f13493e76d20c338a477cb\lifecycle-extensions-2.0.0-rc01\AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.9.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\45ce4510c01fadc1f9309bf99b00a725\jetified-okhttp3-integration-4.9.0\AndroidManifest.xml:10:5-14:19
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.9.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\45ce4510c01fadc1f9309bf99b00a725\jetified-okhttp3-integration-4.9.0\AndroidManifest.xml:10:5-14:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3ccc0872784102afd7436399d714183e\jetified-glide-4.9.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3ccc0872784102afd7436399d714183e\jetified-glide-4.9.0\AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ac6cdd2d4a715d63c12afefea9310a95\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ac6cdd2d4a715d63c12afefea9310a95\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\356240541b7077e2b773a8dd2ffa7a8e\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\356240541b7077e2b773a8dd2ffa7a8e\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\724ed3d3ec037b1d97edf27c5955a39c\jetified-gifdecoder-4.9.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\724ed3d3ec037b1d97edf27c5955a39c\jetified-gifdecoder-4.9.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0-rc01] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\37dff31dbe83acde7dd338a7f98ec9f5\lifecycle-process-2.0.0-rc01\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0-rc01] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\37dff31dbe83acde7dd338a7f98ec9f5\lifecycle-process-2.0.0-rc01\AndroidManifest.xml:22:5-28:19
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\41dfc449dfa6bc90bc0edc20f41fc503\oss-android-sdk-2.9.4\AndroidManifest.xml:17:5-20:19
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\41dfc449dfa6bc90bc0edc20f41fc503\oss-android-sdk-2.9.4\AndroidManifest.xml:17:5-20:19
+MERGED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b2aad7fbc3dee184ecdb1d6cef2b3f5a\library-1.7.6\AndroidManifest.xml:11:5-16:19
+MERGED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b2aad7fbc3dee184ecdb1d6cef2b3f5a\library-1.7.6\AndroidManifest.xml:11:5-16:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ac6cdd2d4a715d63c12afefea9310a95\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from [bench_android:lib_viewpagerindicator:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f5a0087e7547d1078a1d1185883dfe1a\lib_viewpagerindicator-2.0.0\AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:35:9-41
+	android:allowBackup
+		ADDED from [bench_android:lib_viewpagerindicator:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f5a0087e7547d1078a1d1185883dfe1a\lib_viewpagerindicator-2.0.0\AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:34:9-43
+	android:theme
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:37:9-40
+	android:networkSecurityConfig
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:36:9-69
+	android:name
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:33:9-56
+activity#org.opencv.samples.facedetect.activity.IdeaActivity
+ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:38:9-68
+	android:name
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:38:19-56
+activity#org.opencv.samples.facedetect.activity.SetActivity
+ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:39:9-58
+	android:name
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:39:19-55
+activity#org.opencv.samples.facedetect.activity.login.LoginActivity
+ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:40:9-46:20
+	android:name
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:40:19-63
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:41:13-45:29
+action#android.intent.action.MAIN
+ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:42:17-69
+	android:name
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:42:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:44:17-77
+	android:name
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:44:27-74
+activity#org.opencv.samples.facedetect.activity.AreaPointActivity
+ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:47:9-49:52
+	android:screenOrientation
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:49:13-49
+	android:name
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:48:13-55
+activity#org.opencv.samples.facedetect.activity.LocationActivity
+ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:50:9-52:53
+	android:screenOrientation
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:52:13-50
+	android:name
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:51:13-54
+activity#org.opencv.samples.facedetect.activity.PlayEndActivity
+ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:53:9-55:52
+	android:screenOrientation
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:55:13-49
+	android:name
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:54:13-53
+activity#org.opencv.samples.facedetect.activity.MainActivity
+ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:56:9-58:52
+	android:screenOrientation
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:58:13-49
+	android:name
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:57:13-50
+activity#org.opencv.samples.facedetect.activity.DetailActivity
+ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:59:9-61:52
+	android:screenOrientation
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:61:13-49
+	android:name
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:60:13-52
+activity#org.opencv.samples.facedetect.activity.DetectorTestActivity
+ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:62:9-64:52
+	android:screenOrientation
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:64:13-49
+	android:name
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:63:13-58
+activity#com.google.zxing.client.android.CaptureActivity
+ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:65:9-70:63
+	android:screenOrientation
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:68:13-49
+	android:windowSoftInputMode
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:70:13-60
+	android:configChanges
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:67:13-63
+	android:theme
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:69:13-71
+	android:name
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:66:13-75
+activity#org.opencv.samples.facedetect.activity.ScanActivity
+ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:71:9-73:52
+	android:screenOrientation
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:73:13-49
+	android:name
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:72:13-50
+activity#org.opencv.samples.facedetect.activity.VideoDetailActivity
+ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:74:9-76:52
+	android:screenOrientation
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:76:13-49
+	android:name
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:75:13-57
+activity#org.opencv.samples.player.VideoPlayActivity
+ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:77:9-92:20
+	android:exported
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:80:13-36
+	android:configChanges
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:79:13-122
+	android:name
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:78:13-71
+intent-filter#action:name:org.opencv.samples.facedetect.action.VIEW+category:name:android.intent.category.DEFAULT+data:scheme:asset+data:scheme:content+data:scheme:file+data:scheme:http+data:scheme:https
+ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:81:13-91:29
+action#org.opencv.samples.facedetect.action.VIEW
+ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:82:17-84
+	android:name
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:82:25-81
+category#android.intent.category.DEFAULT
+ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:84:17-76
+	android:name
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:84:27-73
+data
+ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:86:17-47
+	android:scheme
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml:86:23-44
+uses-sdk
+INJECTED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml
+INJECTED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml
+MERGED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:zxing] E:\company_github\baseketBall\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-22:41
+MERGED from [:zxing] E:\company_github\baseketBall\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.1.0-alpha10] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\015d9d0b2949833629be1eace435c33a\material-1.1.0-alpha10\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0-alpha10] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\015d9d0b2949833629be1eace435c33a\material-1.1.0-alpha10\AndroidManifest.xml:20:5-44
+MERGED from [bench_android:arouter-api:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cbb0babf15f420d3b8bb38eb6386118c\arouter-api-1.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [bench_android:arouter-api:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cbb0babf15f420d3b8bb38eb6386118c\arouter-api-1.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [bench_android:lib_loadsir:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\76eda074c85e4c88ff598605b7bf657f\lib_loadsir-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [bench_android:lib_loadsir:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\76eda074c85e4c88ff598605b7bf657f\lib_loadsir-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [bench_android:lib_viewpagerindicator:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f5a0087e7547d1078a1d1185883dfe1a\lib_viewpagerindicator-2.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [bench_android:lib_viewpagerindicator:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f5a0087e7547d1078a1d1185883dfe1a\lib_viewpagerindicator-2.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\dcd85adcd7a1e46426af129e8fbf0711\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\dcd85adcd7a1e46426af129e8fbf0711\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\829aacbefe0b9da528caa37bb76836d9\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\829aacbefe0b9da528caa37bb76836d9\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5f1d6c8d22b38160c3e6f108326186a6\jetified-circleimageview-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5f1d6c8d22b38160c3e6f108326186a6\jetified-circleimageview-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [org.permissionsdispatcher:permissionsdispatcher:4.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2f51061d54ebf9012457ca6b9ca9e818\permissionsdispatcher-4.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [org.permissionsdispatcher:permissionsdispatcher:4.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2f51061d54ebf9012457ca6b9ca9e818\permissionsdispatcher-4.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.11.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\664faec5cbcc6b0ffdb788dc9a5f47fa\exoplayer-2.11.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.11.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\664faec5cbcc6b0ffdb788dc9a5f47fa\exoplayer-2.11.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.11.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4632679e278a132ab1e49712c8d1f70c\exoplayer-dash-2.11.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.11.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4632679e278a132ab1e49712c8d1f70c\exoplayer-dash-2.11.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.11.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\82d8e3d73ba2cbf9108f446429104c0f\exoplayer-ui-2.11.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.11.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\82d8e3d73ba2cbf9108f446429104c0f\exoplayer-ui-2.11.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.11.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\685cb5df50b2f11771fd36c1002accb8\exoplayer-hls-2.11.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.11.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\685cb5df50b2f11771fd36c1002accb8\exoplayer-hls-2.11.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.11.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6cdcb04a3db5c803b2d40f8eebcf2cab\exoplayer-smoothstreaming-2.11.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.11.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6cdcb04a3db5c803b2d40f8eebcf2cab\exoplayer-smoothstreaming-2.11.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.11.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\537a538bcf76defde6284cf7bdcc0043\jetified-exoplayer-core-2.11.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.11.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\537a538bcf76defde6284cf7bdcc0043\jetified-exoplayer-core-2.11.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-rc01] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6996fe3977f13493e76d20c338a477cb\lifecycle-extensions-2.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-rc01] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6996fe3977f13493e76d20c338a477cb\lifecycle-extensions-2.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.9.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\45ce4510c01fadc1f9309bf99b00a725\jetified-okhttp3-integration-4.9.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.9.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\45ce4510c01fadc1f9309bf99b00a725\jetified-okhttp3-integration-4.9.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3ccc0872784102afd7436399d714183e\jetified-glide-4.9.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3ccc0872784102afd7436399d714183e\jetified-glide-4.9.0\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta03] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e26ce6cb11064338908f240ca9407b2d\viewpager2-1.0.0-beta03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta03] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e26ce6cb11064338908f240ca9407b2d\viewpager2-1.0.0-beta03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\abcd570d19661a7d59ae21ad385fc136\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\abcd570d19661a7d59ae21ad385fc136\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\23c54b7d8224ec419d8eaf22ba16837c\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\23c54b7d8224ec419d8eaf22ba16837c\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\64abd2aa94f9e6e0d93dad4aa9a57696\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\64abd2aa94f9e6e0d93dad4aa9a57696\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b150668c3e9c150e9040cc923dfa882a\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b150668c3e9c150e9040cc923dfa882a\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1b95ebc6bb0d308a0237c1f3b35bfce8\media-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1b95ebc6bb0d308a0237c1f3b35bfce8\media-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\516308087aaa1f0cad8f2a4667d19b73\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\516308087aaa1f0cad8f2a4667d19b73\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\39441e7140aed719bbbbc9e13d62aad6\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\39441e7140aed719bbbbc9e13d62aad6\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\285d20e861322435cc1e0648f10e0f97\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\285d20e861322435cc1e0648f10e0f97\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0e3ba0012f6fc9f5f133e2c797aa003f\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0e3ba0012f6fc9f5f133e2c797aa003f\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c362c12463fc973ceb4f22731ae85551\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c362c12463fc973ceb4f22731ae85551\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bb5cecee09de9ae23c01521f19c40803\coordinatorlayout-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bb5cecee09de9ae23c01521f19c40803\coordinatorlayout-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\28102dc38b3aca44de804c1f1e1560c6\recyclerview-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\28102dc38b3aca44de804c1f1e1560c6\recyclerview-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f1acf78960f8fec883f4907ce1635db4\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f1acf78960f8fec883f4907ce1635db4\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bdc1bdfe61f2804ceb44632c09dbd0a8\transition-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bdc1bdfe61f2804ceb44632c09dbd0a8\transition-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ac6cdd2d4a715d63c12afefea9310a95\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ac6cdd2d4a715d63c12afefea9310a95\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5e484f386598001459393f057e66b16f\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5e484f386598001459393f057e66b16f\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.davemorrissey.labs:subsampling-scale-image-view:3.10.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f0a53576c29c5b323f4a521c3fdff174\jetified-subsampling-scale-image-view-3.10.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.davemorrissey.labs:subsampling-scale-image-view:3.10.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f0a53576c29c5b323f4a521c3fdff174\jetified-subsampling-scale-image-view-3.10.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\733cde266c26a10482610ec20012d2fd\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\733cde266c26a10482610ec20012d2fd\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\356240541b7077e2b773a8dd2ffa7a8e\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\356240541b7077e2b773a8dd2ffa7a8e\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1df8dd8e1e33b090540d0f8afb83e17f\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1df8dd8e1e33b090540d0f8afb83e17f\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2aa22f99858b79fd50e52de257d538fe\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2aa22f99858b79fd50e52de257d538fe\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\724ed3d3ec037b1d97edf27c5955a39c\jetified-gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\724ed3d3ec037b1d97edf27c5955a39c\jetified-gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0-rc01] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\37dff31dbe83acde7dd338a7f98ec9f5\lifecycle-process-2.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0-rc01] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\37dff31dbe83acde7dd338a7f98ec9f5\lifecycle-process-2.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0-rc01] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\279713e9aef88a0853fafef637c5a71a\lifecycle-service-2.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0-rc01] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\279713e9aef88a0853fafef637c5a71a\lifecycle-service-2.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9146dde92e16083f9ef34f77d9d85bb1\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9146dde92e16083f9ef34f77d9d85bb1\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ce1f6170d5afca712b9ff652c4cb9d97\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ce1f6170d5afca712b9ff652c4cb9d97\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1db3a05a66ddc2477bc93948af2a7102\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1db3a05a66ddc2477bc93948af2a7102\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\74a6521bc99b7f1e4fa5594faf79f715\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\74a6521bc99b7f1e4fa5594faf79f715\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d799042f454c59722da923df757b9652\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d799042f454c59722da923df757b9652\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f6afd7568c7a675f5b14c84a1d635e35\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f6afd7568c7a675f5b14c84a1d635e35\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9f14e38646002c3bbf4c0b7a1c16876a\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9f14e38646002c3bbf4c0b7a1c16876a\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\41dfc449dfa6bc90bc0edc20f41fc503\oss-android-sdk-2.9.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\41dfc449dfa6bc90bc0edc20f41fc503\oss-android-sdk-2.9.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b2aad7fbc3dee184ecdb1d6cef2b3f5a\library-1.7.6\AndroidManifest.xml:6:5-43
+MERGED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b2aad7fbc3dee184ecdb1d6cef2b3f5a\library-1.7.6\AndroidManifest.xml:6:5-43
+MERGED from [com.wang.avi:library:2.1.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ddb7318cc9fa1b51528707832bd52088\library-2.1.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.wang.avi:library:2.1.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ddb7318cc9fa1b51528707832bd52088\library-2.1.3\AndroidManifest.xml:7:5-9:41
+MERGED from [bench_android:BaseRecyclerViewAdapterHelper:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2370b1283879b512370ada365f5fcc81\BaseRecyclerViewAdapterHelper-2.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [bench_android:BaseRecyclerViewAdapterHelper:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2370b1283879b512370ada365f5fcc81\BaseRecyclerViewAdapterHelper-2.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [bench_android:lib_pingyin4j:1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ddd53af925b01a83c2fe402a102c7aa6\lib_pingyin4j-1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [bench_android:lib_pingyin4j:1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ddd53af925b01a83c2fe402a102c7aa6\lib_pingyin4j-1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [bench_android:lib_linker_normal:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4d6b0c39e8540b728d8a4c771ed5a932\lib_linker_normal-1.0.2\AndroidManifest.xml:7:5-9:41
+MERGED from [bench_android:lib_linker_normal:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4d6b0c39e8540b728d8a4c771ed5a932\lib_linker_normal-1.0.2\AndroidManifest.xml:7:5-9:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.16] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\235455048c8703e98510a9c59d1fd6cc\android-gif-drawable-1.2.16\AndroidManifest.xml:6:5-8:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.16] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\235455048c8703e98510a9c59d1fd6cc\android-gif-drawable-1.2.16\AndroidManifest.xml:6:5-8:41
+INJECTED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml
+INJECTED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml
+		INJECTED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml
+		ADDED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml
+		INJECTED from E:\company_github\baseketBall\face-detection\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.11.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\537a538bcf76defde6284cf7bdcc0043\jetified-exoplayer-core-2.11.5\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.11.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\537a538bcf76defde6284cf7bdcc0043\jetified-exoplayer-core-2.11.5\AndroidManifest.xml:24:5-79
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\41dfc449dfa6bc90bc0edc20f41fc503\oss-android-sdk-2.9.4\AndroidManifest.xml:12:5-79
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\41dfc449dfa6bc90bc0edc20f41fc503\oss-android-sdk-2.9.4\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-76
+MERGED from [:zxing] E:\company_github\baseketBall\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:5-76
+MERGED from [:zxing] E:\company_github\baseketBall\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:5-76
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\41dfc449dfa6bc90bc0edc20f41fc503\oss-android-sdk-2.9.4\AndroidManifest.xml:13:5-76
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\41dfc449dfa6bc90bc0edc20f41fc503\oss-android-sdk-2.9.4\AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-76
+MERGED from [:zxing] E:\company_github\baseketBall\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:5-76
+MERGED from [:zxing] E:\company_github\baseketBall\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:5-76
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\41dfc449dfa6bc90bc0edc20f41fc503\oss-android-sdk-2.9.4\AndroidManifest.xml:15:5-76
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\41dfc449dfa6bc90bc0edc20f41fc503\oss-android-sdk-2.9.4\AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:22-73
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:22-76
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:5-89
+	android:name
+		ADDED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:22-86
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:5-75
+	android:name
+		ADDED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:22-72
+service#com.bench.android.core.net.httpLoop.LoopService
+ADDED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:9-43:40
+	android:exported
+		ADDED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-37
+	android:name
+		ADDED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:13-75
+activity#com.bench.android.core.net.domain.base.ShowErrorDetailMessageActivity
+ADDED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:9-47:52
+	android:screenOrientation
+		ADDED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:13-49
+	android:name
+		ADDED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-97
+provider#androidx.core.content.FileProvider
+ADDED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:9-71:20
+	android:grantUriPermissions
+		ADDED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:67:13-47
+	android:authorities
+		ADDED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:13-64
+	android:exported
+		ADDED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:66:13-37
+	android:name
+		ADDED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:64:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:68:13-70:54
+	android:resource
+		ADDED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:17-51
+	android:name
+		ADDED from [:lib_base_toolkit_lite] E:\company_github\baseketBall\lib_base_toolkit_lite\build\intermediates\library_manifest\debug\AndroidManifest.xml:69:17-67
+uses-permission#android.permission.FLASHLIGHT
+ADDED from [:zxing] E:\company_github\baseketBall\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:5-69
+	android:name
+		ADDED from [:zxing] E:\company_github\baseketBall\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:22-66
+uses-permission#com.android.browser.permission.READ_HISTORY_BOOKMARKS
+ADDED from [:zxing] E:\company_github\baseketBall\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:5-93
+	android:name
+		ADDED from [:zxing] E:\company_github\baseketBall\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:22-90
+uses-feature#android.hardware.camera.any
+ADDED from [:zxing] E:\company_github\baseketBall\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:5-64
+	android:name
+		ADDED from [:zxing] E:\company_github\baseketBall\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:19-61
+uses-feature#android.hardware.camera.flash
+ADDED from [:zxing] E:\company_github\baseketBall\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:5-41:36
+	android:required
+		ADDED from [:zxing] E:\company_github\baseketBall\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:9-33
+	android:name
+		ADDED from [:zxing] E:\company_github\baseketBall\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [:zxing] E:\company_github\baseketBall\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:5-70
+	android:name
+		ADDED from [:zxing] E:\company_github\baseketBall\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:19-67
+uses-feature#android.hardware.wifi
+ADDED from [:zxing] E:\company_github\baseketBall\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:5-45:36
+	android:required
+		ADDED from [:zxing] E:\company_github\baseketBall\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:9-33
+	android:name
+		ADDED from [:zxing] E:\company_github\baseketBall\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:9-45
+meta-data#com.bumptech.glide.integration.okhttp3.OkHttpGlideModule
+ADDED from [com.github.bumptech.glide:okhttp3-integration:4.9.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\45ce4510c01fadc1f9309bf99b00a725\jetified-okhttp3-integration-4.9.0\AndroidManifest.xml:11:9-13:43
+	android:value
+		ADDED from [com.github.bumptech.glide:okhttp3-integration:4.9.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\45ce4510c01fadc1f9309bf99b00a725\jetified-okhttp3-integration-4.9.0\AndroidManifest.xml:13:13-40
+	android:name
+		ADDED from [com.github.bumptech.glide:okhttp3-integration:4.9.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\45ce4510c01fadc1f9309bf99b00a725\jetified-okhttp3-integration-4.9.0\AndroidManifest.xml:12:13-84
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0-rc01] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\37dff31dbe83acde7dd338a7f98ec9f5\lifecycle-process-2.0.0-rc01\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0-rc01] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\37dff31dbe83acde7dd338a7f98ec9f5\lifecycle-process-2.0.0-rc01\AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0-rc01] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\37dff31dbe83acde7dd338a7f98ec9f5\lifecycle-process-2.0.0-rc01\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0-rc01] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\37dff31dbe83acde7dd338a7f98ec9f5\lifecycle-process-2.0.0-rc01\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0-rc01] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\37dff31dbe83acde7dd338a7f98ec9f5\lifecycle-process-2.0.0-rc01\AndroidManifest.xml:24:13-79
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b2aad7fbc3dee184ecdb1d6cef2b3f5a\library-1.7.6\AndroidManifest.xml:9:5-77
+	android:name
+		ADDED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b2aad7fbc3dee184ecdb1d6cef2b3f5a\library-1.7.6\AndroidManifest.xml:9:22-74
+service#com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService
+ADDED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b2aad7fbc3dee184ecdb1d6cef2b3f5a\library-1.7.6\AndroidManifest.xml:12:9-118
+	android:name
+		ADDED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b2aad7fbc3dee184ecdb1d6cef2b3f5a\library-1.7.6\AndroidManifest.xml:12:18-115
+service#com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService
+ADDED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b2aad7fbc3dee184ecdb1d6cef2b3f5a\library-1.7.6\AndroidManifest.xml:13:9-15:49
+	android:process
+		ADDED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b2aad7fbc3dee184ecdb1d6cef2b3f5a\library-1.7.6\AndroidManifest.xml:15:13-46
+	android:name
+		ADDED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b2aad7fbc3dee184ecdb1d6cef2b3f5a\library-1.7.6\AndroidManifest.xml:14:13-108

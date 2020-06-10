@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--app主题色-->
+    <color name="colorPrimary">#d62d20</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="google_red">#d62d20</color>
+    <color name="google_blue">#0057e7</color>
+    <color name="google_green">#008744</color>
+    <color name="google_yellow">#ffa700</color>
+    <color name="line_color">#e5e5e5</color>
+    <color name="main_red">#F63F3F</color>
+    <color name="light_text_color">#999999</color>
+    <color name="common_bg_gray">#F5F5F7</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="textcolor_hint">#cfcfcf</color>
+    <color name="alpha_gray">#77000000</color>
+    <!--文字G1-->
+    <color name="colorTextG1">#CCCCCC</color>
+    <!--文字G2-->
+    <color name="colorTextG2">#999999</color>
+    <!--文字G3-->
+    <color name="colorTextG3">#666666</color>
+    <!--文字G4-->
+    <color name="colorTextG4">#333333</color>
+    <!--文字G5-->
+    <color name="colorTextG5">#9E9D9D</color>
+    <!--文字G6-->
+    <color name="colorTextG6">#7e7f82</color>
+    <!--文字G7-->
+    <color name="colorTextG7">#728496</color>
+    <!--文字G8-->
+    <color name="colorTextG8">#BBBBBB</color>
+
+    <color name="bg_color_normal">#f5f5f5</color>
+
+    <!--淡灰-->
+    <color name="text_color_light">#999999</color>
+
+
+
+    <!--淡黑-->
+    <color name="text_color_light_black">#666666</color>
+
+    <!--全黑-->
+    <color name="text_color_black">#000000</color>
+
+    <!--淡-->
+    <color name="text_gray_light">#BFBFBF</color>
+
+    <!-- 普通-->
+    <color name="text_color_normal">#333333</color>
+
+</resources>

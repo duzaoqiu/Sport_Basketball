@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dp_45">45dp</dimen>
+
+    <!--小标题-->
+    <dimen name="text_size_small">12sp</dimen>
+
+    <!--标准标题-->
+    <dimen name="text_size_normal">14sp</dimen>
+
+    <!-- 大标题-->
+    <dimen name="text_size_large">16sp</dimen>
+
+    <!--特大标题-->
+    <dimen name="text_size_extra_large">18sp</dimen>
+
+    <!--间距2dp-->
+    <dimen name="padding_2dp">2dp</dimen>
+
+    <!--间距4dp-->
+    <dimen name="padding_4dp">4dp</dimen>
+
+    <!--间距6dp-->
+    <dimen name="padding_6dp">6dp</dimen>
+
+    <!--间距8dp-->
+    <dimen name="padding_8dp">8dp</dimen>
+
+    <!--间距10dp-->
+    <dimen name="padding_10dp">10dp</dimen>
+
+</resources>

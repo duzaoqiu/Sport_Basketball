@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.player.base">
+
+    <application>
+        <activity
+            android:name=".service.ShortVideoPlayerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".service.LongVideoPlayerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+    </application>
+</manifest>

@@ -1,0 +1,9 @@
+
+rootProject.name = 'opencv_samples'
+
+
+include ':face-detection', ':zxing'
+
+include ':lib_base_toolkit_lite'
+
+ 

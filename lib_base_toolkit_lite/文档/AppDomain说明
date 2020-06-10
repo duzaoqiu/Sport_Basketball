@@ -1,0 +1,20 @@
+1，先从本地获取,，，，同时请求阿里云， ,
+
+2，阿里云请求成功以后，
+如果与本地一样，就检测一下，
+如果与本地不一样，保存，并通知界面刷新 至此结束（默认网络更新的都是有效的）
+
+3，检测失败，继续请求备用地址
+如果得到的结果还是与本地一样，弹窗结束，
+如果与本地不一样，保存，并通知界面刷新 至此结束（默认网络更新的都是有效的）
+
+然后再请求发起的时候加了一个判断
+判断AppDomainManager.getInstance().getApiDomain()是不是空，
+如果是空的话就不发起请求，回调onFailed，然后在BaseActivity里面判断，为空的话，去请求域名，，，这个是为了解决之前app里面崩溃后，域名被回收
+
+  使用
+  AppDomainGetUtil.getInstance().start { success, errorMessage ->
+            if (!success) {
+                showFaildDialog(errorMessage)
+            }
+  }

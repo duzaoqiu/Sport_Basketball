@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/backIv"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:src="@drawable/icon_back"
+        android:visibility="gone"
+        tools:visibility="visible"
+        android:layout_gravity="start|center_vertical"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/titleTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="首页"
+        android:textColor="#ff564f5e"
+        android:textSize="20sp"
+        android:layout_gravity="center"/>
+
+</FrameLayout>

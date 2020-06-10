@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/padding_10dp"
+        android:paddingRight="@dimen/padding_10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="14dp"
+            android:id="@+id/userLogoIv"
+            android:src="@drawable/icon_3" />
+
+        <TextView
+            style="@style/text_style_large"
+            android:layout_width="0dp"
+            android:layout_marginLeft="@dimen/padding_4dp"
+            android:layout_weight="1"
+            android:id="@+id/userNameTv"
+            android:text="阿夏" />
+
+        <ImageView
+            android:id="@+id/scanIv"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_scan"
+            android:tint="@color/black"/>
+
+    </LinearLayout>
+
+    <!--    <LinearLayout-->
+    <!--        android:id="@+id/timeSelectLayout"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="35dp"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        android:gravity="center_vertical"-->
+    <!--        android:paddingLeft="@dimen/padding_10dp"-->
+    <!--        android:background="@drawable/shape_all_radius_grey"-->
+    <!--        android:layout_marginLeft="@dimen/padding_10dp"-->
+    <!--        android:layout_marginRight="@dimen/padding_10dp">-->
+
+    <!--        <TextView-->
+    <!--            style="@style/text_style_normal"-->
+    <!--            android:text="2020-04-23"-->
+    <!--            android:textColor="@color/text_color_light_black"/>-->
+
+    <!--    </LinearLayout>-->
+
+
+    <org.opencv.samples.view.DateSelectView
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:id="@+id/dateSelectLayout"/>
+    <LinearLayout
+        android:layout_margin="@dimen/dp_10"
+        android:background="@drawable/shape_all_radius_gray"
+        android:layout_width="match_parent"
+        android:id="@+id/searchLayout"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginLeft="@dimen/dp_10"
+            android:padding="@dimen/dp_10"
+            android:src="@drawable/icon_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:text="2020-06-03"
+            android:id="@+id/dateTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <View
+        style="@style/cut_line_horizontal"
+        android:layout_marginTop="@dimen/padding_10dp"
+        android:layout_marginBottom="@dimen/padding_10dp" />
+
+    <com.bench.android.core.view.recyclerview.PullRecyclerView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

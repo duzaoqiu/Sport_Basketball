@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bgLayout"
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    android:background="@drawable/shape_all_radius_small_corner_orange"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/monthTv"
+        style="@style/text_style_normal"
+        android:text="12月"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_extra_large" />
+
+    <TextView
+        android:id="@+id/pointTv"
+        style="@style/text_style_normal"
+        android:layout_marginTop="8dp"
+        android:text="11/25"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+非继承 BaseListFragment 使用步骤：
+1. layout文件中使用 com.bench.android.core.view.RecyclerView.PullRecyclerView
+2. Activity中 声明此 PullRecyclerView 与 一个 ListController，如下
+    /*
+    private PullRecyclerView mRecyclerView;//记得要在onCreate()里findViewById
+    private ListController<String> listController;
+    */
+3. Activity中实现一个Adapter类，继承com.android.library.View.RecyclerView.BaseAdapter
+    /*
+    BaseAdapter<String> mAdapter = new BaseAdapter<String>(R.layout.listitem_recyclerview_test) {
+        @Override
+        public void onBindViewHolder(BaseViewHolder helper, String item) {
+            helper.setText(R.id.text, item);
+        }
+    };
+    */
+    传入行layout以及实现业务bindViewHolder，注意泛型
+4. onCreate()中实现ListController
+    /*
+    listController = new ListController<>(mRecyclerView, mAdapter);
+    */
+5. 若有下拉刷新事件
+    /*
+    mRecyclerView.setOnRefreshListener(new PullRecyclerView.onRefreshListener() {
+        @Override
+        public void onRefresh(boolean refresh) {
+            listController.resetPage();//页数重置为1，无分页可以不写
+
+            //获取新数据, 有分页的话page传listController.getCurPage()，举个例子
+                 //RequestFormBody map = new RequestFormBody(urlEnum, true);
+                 //map.put("currentPage", listController.getCurPage());
+                 //mWrapperHttpHelper.startRequest(map);
+        }
+    });
+    */
+6. 若有上拉加载事件
+    /*
+    mAdapter.setOnLoadMoreListener(new BaseQuickAdapter.RequestLoadMoreListener() {
+        @Override
+        public void onLoadMoreRequested() {
+            //获取新数据，不用page+1
+            //与5中的下拉刷新应是同一个方法
+        }
+    }, mRecyclerView.getRecyclerView());
+    */
+7. 请求数据
+    /*
+    mRecyclerView.startRefresh();
+    */
+8. 接口数据返回后，调用loadComplete方法即可，PaginatorBean为服务端返回，无分页可传null
+    /*
+    listController.loadComplete(list, PaginatorBean);
+    */
+
+
+继承 BaseListFragment 使用讲解：
+首先添加泛型
+initData()里做你自己想要的处理，比如LayoutManage的更改，比如加ItemAnimator或ItemDecoration，或者layout_title的设置，但是不建议在这里获取数据
+默认允许下拉刷新，若不允许，调用PullRecyclerView.setRefreshEnable(false)
+默认允许上拉加载，若不允许，调用PullRecyclerView.setLoadMoreEnable(false)
+获取数据的代码应放在onRefresh(boolean refresh)里，页数传listController.getCurPage()即可，参考31行，refresh用来区分是否下拉，一般用不到
+获取到数据后调用 listController.loadComplete(list, PaginatorBean); 即可
+
+
+
+无论继不继承都要注意，有分页的话，PaginatorBean不能传null，否则会无法请求第二页
+
+by 大脑

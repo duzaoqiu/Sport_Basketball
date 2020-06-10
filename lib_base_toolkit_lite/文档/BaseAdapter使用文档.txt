@@ -1,0 +1,100 @@
+官方文档 https://www.jianshu.com/p/b343fcff51b0，这里罗列几个常用的
+
+viewHolder.getLayoutPosition() 获取当前item的position
+
+viewHolder.getView(viewId) 获取某子view
+
+Item的点击事件
+adapter.setOnItemClickListener(new BaseQuickAdapter.OnItemClickListener() {
+            @Override
+            public void onItemClick(BaseQuickAdapter adapter, View view, int position) {
+                Log.d(TAG, "onItemClick: ");
+                Toast.makeText(ItemClickActivity.this, "onItemClick" + position, Toast.LENGTH_SHORT).show();
+            }
+        });
+
+
+Item的长按事件
+adapter.setOnItemLongClickListener(new BaseQuickAdapter.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(BaseQuickAdapter adapter, View view, int position) {
+                Log.d(TAG, "onItemLongClick: ");
+                Toast.makeText(ItemClickActivity.this, "onItemLongClick" + position, Toast.LENGTH_SHORT).show();
+                return false;
+            }
+        });
+
+
+Item子控件的点击事件
+首先在adapter的convert方法里面通过viewHolder.addOnClickListener绑定一下的控件id
+@Override
+    protected void convert(BaseViewHolder viewHolder, Status item) {
+        viewHolder.setText(R.id.tweetName, item.getUserName())
+                .setText(R.id.tweetText, item.getText())
+                .setText(R.id.tweetDate, item.getCreatedAt())
+                .setVisible(R.id.tweetRT, item.isRetweet())
+                .addOnClickListener(R.id.tweetAvatar)
+                .addOnClickListener(R.id.tweetName)
+                .linkify(R.id.tweetText);
+
+    }
+然后在设置
+adapter.setOnItemChildClickListener(new BaseQuickAdapter.OnItemChildClickListener() {
+            @Override
+            public boolean onItemChildClick(BaseQuickAdapter adapter, View view, int position) {
+                Log.d(TAG, "onItemChildClick: ");
+                Toast.makeText(ItemClickActivity.this, "onItemChildClick" + position, Toast.LENGTH_SHORT).show();
+                return false;
+            }
+        });
+
+
+Item子控件的长按事件
+步骤同上使用方法不同。
+adapter中绑定方法将addOnClickListener改成addOnLongClickListener.
+设置点击事件方法setOnItemChildClickListener改成setOnItemChildLongClickListener
+
+
+添加头部、尾部
+mQuickAdapter.addHeaderView(getView());
+mQuickAdapter.addFooterView(getView());
+
+mQuickAdapter.removeHeaderView(getView);
+mQuickAdapter.removeFooterView(getView);
+
+mQuickAdapter.removeAllHeaderView();
+mQuickAdapter.removeAllFooterView();
+
+
+多布局
+public class MultipleItemQuickAdapter extends BaseMultiItemQuickAdapter<MultipleItem, BaseViewHolder> {
+
+    public MultipleItemQuickAdapter(List data) {
+        super(data);
+        addItemType(MultipleItem.TEXT, R.layout.text_view);
+        addItemType(MultipleItem.IMG, R.layout.image_view);
+    }
+
+    @Override
+    protected void convert(BaseViewHolder helper, MultipleItem item) {
+        switch (helper.getItemViewType()) {
+            case MultipleItem.TEXT:
+                helper.setImageUrl(R.id.tv, item.getContent());
+                break;
+            case MultipleItem.IMG:
+                helper.setImageUrl(R.id.iv, item.getContent());
+                break;
+        }
+    }
+
+}
+如果考虑到在GridLayoutManager复用item问题可以配置：
+multipleItemAdapter.setSpanSizeLookup(new BaseQuickAdapter.SpanSizeLookup() {
+            @Override
+            public int getSpanSize(GridLayoutManager gridLayoutManager, int position) {
+                return data.get(position).getSpanSize();
+            }
+        });
+
+
+更多功能 1添加拖拽 2树形列表 3列表动画 看官方介绍 https://www.jianshu.com/p/b343fcff51b0

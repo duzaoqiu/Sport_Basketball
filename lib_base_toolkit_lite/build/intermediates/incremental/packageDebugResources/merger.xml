@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res"/><source path="E:\company_github\baseketBall\lib_base_toolkit_lite\build\generated\res\rs\debug"/><source path="E:\company_github\baseketBall\lib_base_toolkit_lite\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res"><file name="slide_in_bottom" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\anim\slide_in_bottom.xml" qualifiers="" type="anim"/><file name="slide_in_right_side" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\anim\slide_in_right_side.xml" qualifiers="" type="anim"/><file name="slide_out_bottom" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\anim\slide_out_bottom.xml" qualifiers="" type="anim"/><file name="slide_out_right_side" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\anim\slide_out_right_side.xml" qualifiers="" type="anim"/><file name="base_sidebar_background" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\drawable\base_sidebar_background.xml" qualifiers="" type="drawable"/><file name="divider_horizontal_line" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\drawable\divider_horizontal_line.xml" qualifiers="" type="drawable"/><file name="divider_horizontal_line_with_space" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\drawable\divider_horizontal_line_with_space.xml" qualifiers="" type="drawable"/><file name="divider_vertical_line" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\drawable\divider_vertical_line.xml" qualifiers="" type="drawable"/><file name="selector_emoji_bar" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\drawable\selector_emoji_bar.xml" qualifiers="" type="drawable"/><file name="selector_ok_btn_red_gray" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\drawable\selector_ok_btn_red_gray.xml" qualifiers="" type="drawable"/><file name="shape_all_radius_grey_bg" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\drawable\shape_all_radius_grey_bg.xml" qualifiers="" type="drawable"/><file name="shape_all_radius_white_bg" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\drawable\shape_all_radius_white_bg.xml" qualifiers="" type="drawable"/><file name="shape_all_small_radius_white_bg" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\drawable\shape_all_small_radius_white_bg.xml" qualifiers="" type="drawable"/><file name="shape_process_bg" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\drawable\shape_process_bg.xml" qualifiers="" type="drawable"/><file name="shape_radius8_stroke" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\drawable\shape_radius8_stroke.xml" qualifiers="" type="drawable"/><file name="shape_slidebar_hint" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\drawable\shape_slidebar_hint.xml" qualifiers="" type="drawable"/><file name="eye_selected" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\drawable-xhdpi\eye_selected.png" qualifiers="xhdpi-v4" type="drawable"/><file name="eye_unselected" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\drawable-xhdpi\eye_unselected.png" qualifiers="xhdpi-v4" type="drawable"/><file name="icon_back" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\drawable-xhdpi\icon_back.png" qualifiers="xhdpi-v4" type="drawable"/><file name="icon_back_black" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\drawable-xhdpi\icon_back_black.png" qualifiers="xhdpi-v4" type="drawable"/><file name="icon_back_blue" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\drawable-xhdpi\icon_back_blue.png" qualifiers="xhdpi-v4" type="drawable"/><file name="icon_back_brown" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\drawable-xhdpi\icon_back_brown.png" qualifiers="xhdpi-v4" type="drawable"/><file name="icon_clear" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\drawable-xhdpi\icon_clear.png" qualifiers="xhdpi-v4" type="drawable"/><file name="icon_comments" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\drawable-xhdpi\icon_comments.png" qualifiers="xhdpi-v4" type="drawable"/><file name="icon_default_emoj" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\drawable-xhdpi\icon_default_emoj.png" qualifiers="xhdpi-v4" type="drawable"/><file name="icon_emoj_delete" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\drawable-xhdpi\icon_emoj_delete.png" qualifiers="xhdpi-v4" type="drawable"/><file name="icon_gif_btn" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\drawable-xhdpi\icon_gif_btn.png" qualifiers="xhdpi-v4" type="drawable"/><file name="icon_gray_solid_close" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\drawable-xhdpi\icon_gray_solid_close.png" qualifiers="xhdpi-v4" type="drawable"/><file name="icon_no_content_about_chat_system_reply" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\drawable-xhdpi\icon_no_content_about_chat_system_reply.webp" qualifiers="xhdpi-v4" type="drawable"/><file name="icon_photo_gallery" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\drawable-xhdpi\icon_photo_gallery.png" qualifiers="xhdpi-v4" type="drawable"/><file name="icon_take_photo" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\drawable-xhdpi\icon_take_photo.png" qualifiers="xhdpi-v4" type="drawable"/><file name="icon_topic" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\drawable-xhdpi\icon_topic.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_search" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\drawable-xhdpi\ic_search.png" qualifiers="xhdpi-v4" type="drawable"/><file name="selector_view_bg" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\drawable-xhdpi\selector_view_bg.xml" qualifiers="xhdpi-v4" type="drawable"/><file name="title_line_shadow" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\drawable-xhdpi\title_line_shadow.png" qualifiers="xhdpi-v4" type="drawable"/><file name="wancms_login_qq" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\drawable-xhdpi\wancms_login_qq.png" qualifiers="xhdpi-v4" type="drawable"/><file name="base_activity_show_error_detail_message" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\layout\base_activity_show_error_detail_message.xml" qualifiers="" type="layout"/><file name="base_core_activity_launcher" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\layout\base_core_activity_launcher.xml" qualifiers="" type="layout"/><file name="base_dialog_bottom" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\layout\base_dialog_bottom.xml" qualifiers="" type="layout"/><file name="base_dialog_list_layout" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\layout\base_dialog_list_layout.xml" qualifiers="" type="layout"/><file name="base_dialog_menu_list_layout" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\layout\base_dialog_menu_list_layout.xml" qualifiers="" type="layout"/><file name="base_item_first_alphabet" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\layout\base_item_first_alphabet.xml" qualifiers="" type="layout"/><file name="base_list_layout" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\layout\base_list_layout.xml" qualifiers="" type="layout"/><file name="base_title_list_layout" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\layout\base_title_list_layout.xml" qualifiers="" type="layout"/><file name="base_widget_empty_layout" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\layout\base_widget_empty_layout.xml" qualifiers="" type="layout"/><file name="custom_toolbar" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\layout\custom_toolbar.xml" qualifiers="" type="layout"/><file name="dialog_layout" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\layout\dialog_layout.xml" qualifiers="" type="layout"/><file name="emoji_item_bottom_grid_item" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\layout\emoji_item_bottom_grid_item.xml" qualifiers="" type="layout"/><file name="emoji_item_gif" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\layout\emoji_item_gif.xml" qualifiers="" type="layout"/><file name="emoji_pop_view" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\layout\emoji_pop_view.xml" qualifiers="" type="layout"/><file name="emoji_view_menu_emoji" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\layout\emoji_view_menu_emoji.xml" qualifiers="" type="layout"/><file name="emoji_view_menu_gif" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\layout\emoji_view_menu_gif.xml" qualifiers="" type="layout"/><file name="emoji_view_menu_layout" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\layout\emoji_view_menu_layout.xml" qualifiers="" type="layout"/><file name="emoj_lib_item_emoj" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\layout\emoj_lib_item_emoj.xml" qualifiers="" type="layout"/><file name="emoj_lib_layout_emoj_show" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\layout\emoj_lib_layout_emoj_show.xml" qualifiers="" type="layout"/><file name="fragment_list" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\layout\fragment_list.xml" qualifiers="" type="layout"/><file name="holder_custom" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\layout\holder_custom.xml" qualifiers="" type="layout"/><file name="item_dialog_bottom" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\layout\item_dialog_bottom.xml" qualifiers="" type="layout"/><file name="layout_pull_recycler_view" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\layout\layout_pull_recycler_view.xml" qualifiers="" type="layout"/><file name="layout_title" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\layout\layout_title.xml" qualifiers="" type="layout"/><file name="layout_wrap_slidebar" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\layout\layout_wrap_slidebar.xml" qualifiers="" type="layout"/><file name="section_default_layout" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\layout\section_default_layout.xml" qualifiers="" type="layout"/><file name="simple_menu_list_item" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\layout\simple_menu_list_item.xml" qualifiers="" type="layout"/><file name="simple_menu_list_item1" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\layout\simple_menu_list_item1.xml" qualifiers="" type="layout"/><file name="view_common_tab" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\layout\view_common_tab.xml" qualifiers="" type="layout"/><file name="view_horizontal_progressbar" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\layout\view_horizontal_progressbar.xml" qualifiers="" type="layout"/><file name="view_view_pager_with_header" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\layout\view_view_pager_with_header.xml" qualifiers="" type="layout"/><file name="widget_show_or_hide_pwd" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\layout\widget_show_or_hide_pwd.xml" qualifiers="" type="layout"/><file path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\values\arrays.xml" qualifiers=""><string-array name="appDomainRequestUrlOffLine">
+        <item>http://test-caihong-resource.oss-cn-hangzhou.aliyuncs.com/URL/ch_mapi_url.txt</item>
+        <item>http://dynamic.caihong.net/ch_mapi_url.txt</item>
+    </string-array><string-array name="ftDomainRequestUrlOnline">
+        <item>http://test-kkbuluo-resource.oss-cn-hangzhou.aliyuncs.com/URL/analysis_url.txt</item>
+        <item>http://dynamic.kkbuluo.net/analysis_url.txt</item>
+    </string-array><string-array name="ftDomainRequestUrlOffLine">
+        <item>http://test-kkbuluo-resource.oss-cn-hangzhou.aliyuncs.com/URL/analysis_url.txt</item>
+        <item>http://dynamic.kkbuluo.net/analysis_url.txt</item>
+    </string-array><string-array name="FT_API_IMAGE_DOMAIN_ON_LINE">
+        <item>https://ftapi.kkbuluo.net</item>  
+        <item>https://ftapi1.kkbuluo.net</item>  
+        <item>http://ftapi.kkbuluo.com</item>   
+        <item>https://ft.kkbuluo.net/team/logo/1.htm?</item>  
+        <item>https://ft.kkbuluo.com/team/logo/1.htm?</item>  
+    </string-array><string-array name="BT_API_IMAGE_DOMAIN_ON_LINE">
+        <item>https://btapi.kkbuluo.net</item>  
+        <item>https://btapi1.kkbuluo.net</item> 
+        <item>http://btapi.kkbuluo.com</item>  
+        <item>https://bt.kkbuluo.net/team/logo/1.htm?</item> 
+        <item>https://bt.kkbuluo.com/team/logo/1.htm?</item>  
+    </string-array><string-array name="appDomainBranchTest">
+        <item>http://mapi1.kkbuluo.net</item>
+    </string-array><string-array name="appDomainRequestUrlOnLine">
+        <item>http://sssynout-prod-caihong-resource.oss-cn-hangzhou.aliyuncs.com/URL/ch_mapi_url.txt</item>
+        <item>http://dynamic.caihongshop.com/ch_mapi_url.txt</item>
+    </string-array></file><file path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="LoadFrameLayout">
+        <attr format="reference" name="emptyView"/>
+        <attr format="reference" name="errorView"/>
+        <attr format="reference" name="loadingView"/>
+    </declare-styleable><declare-styleable name="MsgView">
+        
+        <attr format="color" name="mv_backgroundColor"/>
+        
+        <attr format="dimension" name="mv_cornerRadius"/>
+        
+        <attr format="dimension" name="mv_strokeWidth"/>
+        
+        <attr format="color" name="mv_strokeColor"/>
+        
+        <attr format="boolean" name="mv_isRadiusHalfHeight"/>
+        
+        <attr format="boolean" name="mv_isWidthHeightEqual"/>
+    </declare-styleable><declare-styleable name="FlowLayout">
+        <attr format="dimension" name="horizontalSpacing"/>
+        <attr format="dimension" name="verticalSpacing"/>
+    </declare-styleable><declare-styleable name="SimpleImageView">
+        <attr format="boolean" name="isLong"/>
+        <attr format="boolean" name="isRound"/>
+        <attr format="dimension" name="cornerRadius"/>
+    </declare-styleable><declare-styleable name="ShowOrHidePwdView">
+        <attr format="string" name="text_hint"/>
+    </declare-styleable><declare-styleable name="BannerView">
+        <attr format="string" name="ratio"/>
+    </declare-styleable><declare-styleable name="RoundImageView">
+        <attr format="dimension" name="riv_corner_radius"/>
+    </declare-styleable><declare-styleable name="MenuLayout">
+        <attr format="boolean" name="with_gif_view"/>
+    </declare-styleable></file><file path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\values\colors.xml" qualifiers=""><color name="colorPrimary">#d62d20</color><color name="colorPrimaryDark">#303F9F</color><color name="colorAccent">#FF4081</color><color name="google_red">#d62d20</color><color name="google_blue">#0057e7</color><color name="google_green">#008744</color><color name="google_yellow">#ffa700</color><color name="line_color">#e5e5e5</color><color name="main_red">#F63F3F</color><color name="light_text_color">#999999</color><color name="common_bg_gray">#F5F5F7</color><color name="white">#FFFFFF</color><color name="black">#000000</color><color name="textcolor_hint">#cfcfcf</color><color name="alpha_gray">#77000000</color><color name="colorTextG1">#CCCCCC</color><color name="colorTextG2">#999999</color><color name="colorTextG3">#666666</color><color name="colorTextG4">#333333</color><color name="colorTextG5">#9E9D9D</color><color name="colorTextG6">#7e7f82</color><color name="colorTextG7">#728496</color><color name="colorTextG8">#BBBBBB</color><color name="bg_color_normal">#f5f5f5</color><color name="text_color_light">#999999</color><color name="text_color_light_black">#666666</color><color name="text_color_black">#000000</color><color name="text_gray_light">#BFBFBF</color><color name="text_color_normal">#333333</color></file><file path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\values\dimens.xml" qualifiers=""><dimen name="dp_45">45dp</dimen><dimen name="text_size_small">12sp</dimen><dimen name="text_size_normal">14sp</dimen><dimen name="text_size_large">16sp</dimen><dimen name="text_size_extra_large">18sp</dimen><dimen name="padding_2dp">2dp</dimen><dimen name="padding_4dp">4dp</dimen><dimen name="padding_6dp">6dp</dimen><dimen name="padding_8dp">8dp</dimen><dimen name="padding_10dp">10dp</dimen></file><file path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\values\strings.xml" qualifiers=""><string name="empty_error_tip"> 暂无数据~</string><string name="set_rsa_key_tip">aes密钥上传失败</string><string name="group_chat_menu_item_pic">照片</string><string name="group_chat_menu_item_take_photo">拍摄</string></file><file path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\values\styles.xml" qualifiers=""><style name="base_launch_theme" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style><style name="dialog_base" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        
+        <item name="android:backgroundDimAmount">0.2</item>
+        
+    </style><style mce_bogus="1" name="dialog_anim_bottom" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style><style mce_bogus="1" name="dialog_anim_side" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_right_side</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_right_side</item>
+    </style><style name="cut_line_vertical">
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/line_color</item>
+    </style><style name="cut_line_horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/line_color</item>
+    </style><style name="cut_line_horizontal_10">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:background">@color/line_color</item>
+    </style><style name="okBtn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/selector_ok_btn_red_gray</item>
+    </style><declare-styleable name="TagFlowLayout">
+        <attr format="integer" name="max_select"/>
+        <attr format="integer" name="span_count"/>
+        <attr format="boolean" name="single_line"/>
+        <attr format="reference" name="tag_flow_view"/>
+        <attr format="reference" name="tag_flow_text_view_id"/>
+        <attr format="boolean" name="tag_is_clickable"/>
+        <attr format="integer" name="max_line"/>
+        <attr format="boolean" name="add_lastOne"/>
+        <attr format="boolean" name="tag_is_changeable"/>
+        <attr name="tag_gravity">
+            <enum name="left" value="-1"/>
+            <enum name="center" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+    </declare-styleable><declare-styleable name="WrapXXXView">
+        <attr format="boolean" name="anti_repeat"/>
+        <attr format="integer" name="delay_time"/>
+    </declare-styleable><style name="text_style_normal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:textColor">@color/text_color_normal</item>
+    </style><style name="text_style_small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@color/text_color_normal</item>
+    </style><style name="text_style_large">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textColor">@color/text_color_normal</item>
+    </style><style name="text_style_extra_large">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_extra_large</item>
+        <item name="android:textColor">@color/text_color_normal</item>
+    </style><style name="bg_style_normal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding_10dp</item>
+    </style><style name="CustomViewInflaterTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="viewInflaterClass">com.bench.android.core.util.CustomAppViewInflater</item>
+    </style></file><file name="file_paths" path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\res\xml\file_paths.xml" qualifiers="" type="xml"/></source><source path="E:\company_github\baseketBall\lib_base_toolkit_lite\build\generated\res\rs\debug"/><source path="E:\company_github\baseketBall\lib_base_toolkit_lite\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\company_github\baseketBall\lib_base_toolkit_lite\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="FlowLayout">
+        <attr format="dimension" name="horizontalSpacing"/>
+        <attr format="dimension" name="verticalSpacing"/>
+    </declare-styleable><declare-styleable name="SimpleImageView">
+        <attr format="boolean" name="isLong"/>
+        <attr format="boolean" name="isRound"/>
+        <attr format="dimension" name="cornerRadius"/>
+    </declare-styleable><declare-styleable name="BannerView">
+        <attr format="string" name="ratio"/>
+    </declare-styleable><declare-styleable name="MsgView">
+        
+        <attr format="color" name="mv_backgroundColor"/>
+        
+        <attr format="dimension" name="mv_cornerRadius"/>
+        
+        <attr format="dimension" name="mv_strokeWidth"/>
+        
+        <attr format="color" name="mv_strokeColor"/>
+        
+        <attr format="boolean" name="mv_isRadiusHalfHeight"/>
+        
+        <attr format="boolean" name="mv_isWidthHeightEqual"/>
+    </declare-styleable><declare-styleable name="MenuLayout">
+        <attr format="boolean" name="with_gif_view"/>
+    </declare-styleable><declare-styleable name="RoundImageView">
+        <attr format="dimension" name="riv_corner_radius"/>
+    </declare-styleable><declare-styleable name="LoadFrameLayout">
+        <attr format="reference" name="emptyView"/>
+        <attr format="reference" name="errorView"/>
+        <attr format="reference" name="loadingView"/>
+    </declare-styleable><declare-styleable name="ShowOrHidePwdView">
+        <attr format="string" name="text_hint"/>
+    </declare-styleable><declare-styleable name="WrapXXXView">
+        <attr format="boolean" name="anti_repeat"/>
+        <attr format="integer" name="delay_time"/>
+    </declare-styleable><declare-styleable name="TagFlowLayout">
+        <attr format="integer" name="max_select"/>
+        <attr format="integer" name="span_count"/>
+        <attr format="boolean" name="single_line"/>
+        <attr format="reference" name="tag_flow_view"/>
+        <attr format="reference" name="tag_flow_text_view_id"/>
+        <attr format="boolean" name="tag_is_clickable"/>
+        <attr format="integer" name="max_line"/>
+        <attr format="boolean" name="add_lastOne"/>
+        <attr format="boolean" name="tag_is_changeable"/>
+        <attr name="tag_gravity">
+            <enum name="left" value="-1"/>
+            <enum name="center" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+    </declare-styleable></configuration></mergedItems></merger>

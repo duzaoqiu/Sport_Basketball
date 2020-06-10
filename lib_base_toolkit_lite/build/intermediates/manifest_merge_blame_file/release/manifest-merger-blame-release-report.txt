@@ -1,0 +1,111 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.android.library" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+6-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="29" />
+7-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml
+8
+9    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口 -->
+10    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+10-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:6:5-79
+10-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:6:22-76
+11    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:8:5-76
+12-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:8:22-73
+13    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+14    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+14-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:10:5-76
+14-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:10:22-73
+15
+16    <!-- 需要运行时注册的权限 -->
+17    <!-- 用于进行网络定位 -->
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:14:5-81
+18-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:14:22-78
+19    <!-- 用于访问GPS定位 -->
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+20-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:16:5-79
+20-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:16:22-76
+21    <!-- 用于提高GPS定位速度 -->
+22    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+22-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:18:5-89
+22-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:18:22-86
+23
+24    <!-- 写入扩展存储，向扩展卡写入数据，用于写入缓存定位数据 -->
+25    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+25-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:21:5-81
+25-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:21:22-78
+26
+27    <!-- 读取缓存数据 -->
+28    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+28-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:24:5-80
+28-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:24:22-77
+29
+30    <!-- 用于读取手机当前的状态 -->
+31    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+31-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:27:5-75
+31-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:27:22-72
+32
+33    <!-- 更改设置 -->
+34    <!-- <uses-permission android:name="android.permission.WRITE_SETTINGS" /> -->
+35
+36
+37    <!-- 请求网络 -->
+38    <uses-permission android:name="android.permission.INTERNET" />
+38-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:33:5-67
+38-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:33:22-64
+39
+40    <application>
+40-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:35:5-66:19
+41        <service
+41-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:37:9-39:40
+42            android:name="com.bench.android.core.net.httpLoop.LoopService"
+42-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:38:13-75
+43            android:exported="false" />
+43-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:39:13-37
+44
+45        <activity
+45-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:41:9-43:52
+46            android:name="com.bench.android.core.net.domain.base.ShowErrorDetailMessageActivity"
+46-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:42:13-97
+47            android:screenOrientation="portrait" />
+47-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:43:13-49
+48
+49        <!--
+50        <activity
+51            android:name="com.bench.android.core.framework.LauncherActivity"
+52            android:screenOrientation="portrait"
+53            android:theme="@style/base_launch_theme">
+54            <intent-filter>
+55                <action android:name="android.intent.action.MAIN" />
+56                <action android:name="android.intent.action.VIEW" />
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+59            </intent-filter>
+60        </activity>
+61        -->
+62
+63        <provider
+63-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:57:9-65:20
+64            android:name="androidx.core.content.FileProvider"
+64-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:58:13-62
+65            android:authorities="dollar_openBracket_applicationId_closeBracket.fileprovider"
+65-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:59:13-64
+66            android:exported="false"
+66-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:60:13-37
+67            android:grantUriPermissions="true" >
+67-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:61:13-47
+68            <meta-data
+68-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:62:13-64:54
+69                android:name="android.support.FILE_PROVIDER_PATHS"
+69-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:63:17-67
+70                android:resource="@xml/file_paths" />
+70-->E:\company_github\baseketBall\lib_base_toolkit_lite\src\main\AndroidManifest.xml:64:17-51
+71        </provider>
+72    </application>
+73
+74</manifest>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bangLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/color_orange_change"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/ic_bng_top_bg">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/ic_bang_top" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_bang_bg1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/ic_bang_no1" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/icon_1" />
+
+            <TextView
+                android:id="@+id/userName1Tv"
+                style="@style/text_style_normal"
+                android:layout_gravity="center_horizontal"
+                android:text="张三"
+                android:textColor="#564F5E" />
+
+            <TextView
+                style="@style/text_style_normal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:text="命中率"
+                android:textColor="@color/light_text_color"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/rate1Tv"
+                style="@style/text_style_normal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="4dp"
+                android:text="74%"
+                android:textColor="#5090E9"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_bang_bg2"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/ic_bang_no1" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/icon_2" />
+
+            <TextView
+                android:id="@+id/userName2Tv"
+                style="@style/text_style_normal"
+                android:layout_gravity="center_horizontal"
+                android:text="王五"
+                android:textColor="#564F5E" />
+
+            <TextView
+                style="@style/text_style_normal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:text="命中率"
+                android:textColor="@color/light_text_color"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/rate2Tv"
+                style="@style/text_style_normal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="4dp"
+                android:text="90%"
+                android:textColor="#FF8000"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_bang_bg3"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/ic_bang_no1" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/icon_3" />
+
+            <TextView
+                android:id="@+id/userName3Tv"
+                style="@style/text_style_normal"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="qb"
+                android:textColor="#564F5E" />
+
+            <TextView
+                style="@style/text_style_normal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:text="命中率"
+                android:textColor="@color/light_text_color"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/rate3Tv"
+                style="@style/text_style_normal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="4dp"
+                android:text="81%"
+                android:textColor="#C56B1E"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

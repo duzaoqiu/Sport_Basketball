@@ -1,0 +1,42 @@
+apply plugin: 'com.android.library'
+
+
+android {
+    compileSdkVersion dependencyLibs["android:compileSdkVersion"]
+
+    defaultConfig {
+        minSdkVersion dependencyLibs["android:minSdkVersion"]
+        targetSdkVersion dependencyLibs["android:targetSdkVersion"]
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    api "androidx.appcompat:appcompat:${dependencyLibs["androidx.appcompat:appcompat"]}"
+    api "com.google.zxing:core:${dependencyLibs["com.google.zxing:core"]}"
+}
+
+project.task('setDataTask') {
+    project.setVersion(getLibVersion())
+    project.setDescription(getLibChangeLog())
+}
+
+def getLibVersion() {
+    "2.0.0"
+}
+
+def getLibChangeLog() {
+    "升级2.0.0适配androidX"
+}
+

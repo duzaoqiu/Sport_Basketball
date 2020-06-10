@@ -1,0 +1,136 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion dependencyLibs["android:compileSdkVersion"]
+
+    defaultConfig {
+        minSdkVersion dependencyLibs["android:minSdkVersion"]
+        targetSdkVersion dependencyLibs["android:targetSdkVersion"]
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [AROUTER_MODULE_NAME: project.getName()]
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+/**
+ * 引入一个新的库，要查看是否有跟他冲突的库，防止编译或者运行错误
+ */
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+
+    //support_v7
+    api "androidx.appcompat:appcompat:${dependencyLibs["androidx.appcompat:appcompat"]}"
+    api "androidx.constraintlayout:constraintlayout:${dependencyLibs["androidx.constraintlayout:constraintlayout"]}"
+    api "androidx.exifinterface:exifinterface:${dependencyLibs["androidx.exifinterface:exifinterface"]}"
+    api "androidx.multidex:multidex:${dependencyLibs["androidx.multidex:multidex"]}"
+
+    //design库 com.android.support:design
+    api "com.google.android.material:material:${dependencyLibs["com.google.android.material:material"]}"
+    api "androidx.swiperefreshlayout:swiperefreshlayout:${dependencyLibs["androidx.swiperefreshlayout:swiperefreshlayout"]}"
+
+    //LiveData
+    api "androidx.lifecycle:lifecycle-extensions:${dependencyLibs["androidx.lifecycle:lifecycle-extensions"]}"
+    api "androidx.lifecycle:lifecycle-viewmodel:${dependencyLibs["androidx.lifecycle:lifecycle-viewmodel"]}"
+    api "androidx.lifecycle:lifecycle-livedata-core:${dependencyLibs["androidx.lifecycle:lifecycle-livedata-core"]}"
+    api "androidx.lifecycle:lifecycle-livedata:${dependencyLibs["androidx.lifecycle:lifecycle-livedata"]}"
+
+    /**
+     * apache的lang库，主要是一些StringUtils方法等等
+     */
+    api "org.apache.commons:commons-lang3:${dependencyLibs["org.apache.commons:commons-lang3"]}"
+
+    /**
+     * gson库
+     */
+    api "com.google.code.gson:gson:${dependencyLibs["com.google.code.gson:gson"]}"
+
+    /**
+     * okhttp
+     */
+    api "com.squareup.okhttp3:okhttp:${dependencyLibs["com.squareup.okhttp3:okhttp"]}"
+    api "com.squareup.okhttp3:logging-interceptor:${dependencyLibs["com.squareup.okhttp3:logging-interceptor"]}"
+
+    /** * 图片加载框架Glide*/
+    api "com.github.bumptech.glide:glide:${dependencyLibs["com.github.bumptech.glide:glide"]}"
+    annotationProcessor "com.github.bumptech.glide:compiler:${dependencyLibs["com.github.bumptech.glide:compiler"]}"
+    api "com.github.bumptech.glide:okhttp3-integration:${dependencyLibs["com.github.bumptech.glide:okhttp3-integration"]}"
+
+    /**
+     * ARouter
+     */
+    //annotationProcessor project(':arouter-compiler')
+    //compile project(':arouter-compiler')
+
+    annotationProcessor "bench_android:arouter-compiler:${dependencyLibs["bench_android:arouter-compiler"]}"
+    //api project(":arouter-api")
+    api "bench_android:arouter-api:${dependencyLibs["bench_android:arouter-api"]}"
+
+    /**
+     * EventBus事件传递
+     */
+    api "org.greenrobot:eventbus:${dependencyLibs["org.greenrobot:eventbus"]}"
+
+    /**
+     * 特大图显示控件
+     */
+    api "com.davemorrissey.labs:subsampling-scale-image-view:${dependencyLibs["com.davemorrissey.labs:subsampling-scale-image-view"]}"
+
+
+    //加密库
+    //api "bench_android:lib_security_toolkit:${dependencyLibs["bench_android:lib_security_toolkit"]}"
+
+    //文件下载库
+    api "com.liulishuo.filedownloader:library:${dependencyLibs["com.liulishuo.filedownloader:library"]}"
+
+    /**
+     * 线程控制库类似rxjava，但是很小只有36k
+     */
+    api "com.parse.bolts:bolts-tasks:${dependencyLibs["com.parse.bolts:bolts-tasks"]}"
+
+    //加载、错误页面显示库
+    api "bench_android:lib_loadsir:${dependencyLibs["bench_android:lib_loadsir"]}"
+
+    //动画库
+    api "com.wang.avi:library:${dependencyLibs["com.wang.avi:library"]}"
+
+    api "bench_android:BaseRecyclerViewAdapterHelper:${dependencyLibs["bench_android:BaseRecyclerViewAdapterHelper"]}"
+
+    api "bench_android:lib_pingyin4j:${dependencyLibs["bench_android:lib_pingyin4j"]}"
+
+    api "bench_android:lib_linker_normal:${dependencyLibs["bench_android:lib_linker_normal"]}"
+
+    api "bench_android:lib_viewpagerindicator:${dependencyLibs["bench_android:lib_viewpagerindicator"]}"
+
+    api "pl.droidsonroids.gif:android-gif-drawable:${dependencyLibs["pl.droidsonroids.gif:android-gif-drawable"]}"
+
+}
+
+modifyPom {
+    project {
+        description "新增网络拦截器，common api的框架"
+        developers {
+            developer {
+                name 'zhoushen,xingjiu,malong'
+            }
+        }
+    }
+}
+
+version = '2.0.3-SNAPSHOT'
