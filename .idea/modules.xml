@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/lib_base_toolkit_lite/baseketBall-lib_base_toolkit_lite.iml" filepath="$PROJECT_DIR$/lib_base_toolkit_lite/baseketBall-lib_base_toolkit_lite.iml" group="opencv_samples/lib_base_toolkit_lite" />
       <module fileurl="file://$PROJECT_DIR$/face-detection/face-detection.iml" filepath="$PROJECT_DIR$/face-detection/face-detection.iml" group="opencv_samples/face-detection" />
       <module fileurl="file://$PROJECT_DIR$/lib_base_toolkit_lite/lib_base_toolkit_lite.iml" filepath="$PROJECT_DIR$/lib_base_toolkit_lite/lib_base_toolkit_lite.iml" group="opencv_samples/lib_base_toolkit_lite" />
       <module fileurl="file://$PROJECT_DIR$/opencv_samples.iml" filepath="$PROJECT_DIR$/opencv_samples.iml" group="opencv_samples" />
