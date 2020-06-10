@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: __local_aars__:E./company_github/baseketBall/face-detection/libs/commons-math3-3.6.1.jar:unspecified@jar">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/face-detection/libs/commons-math3-3.6.1.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
